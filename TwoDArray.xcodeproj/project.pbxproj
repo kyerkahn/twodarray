@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50F7EE715DC29F6002448D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50F7EE615DC29F6002448D5 /* Foundation.framework */; };
+		F50F7EEA15DC29F6002448D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F7EE915DC29F6002448D5 /* main.m */; };
+		F50F7EEE15DC29F6002448D5 /* TwoDArray.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50F7EED15DC29F6002448D5 /* TwoDArray.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F50F7EE015DC29F6002448D5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F50F7EEE15DC29F6002448D5 /* TwoDArray.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F50F7EE215DC29F6002448D5 /* TwoDArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoDArray; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50F7EE615DC29F6002448D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F50F7EE915DC29F6002448D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F50F7EEC15DC29F6002448D5 /* TwoDArray-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwoDArray-Prefix.pch"; sourceTree = "<group>"; };
+		F50F7EED15DC29F6002448D5 /* TwoDArray.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TwoDArray.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50F7EDF15DC29F6002448D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50F7EE715DC29F6002448D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50F7ED715DC29F6002448D5 = {
+			isa = PBXGroup;
+			children = (
+				F50F7EE815DC29F6002448D5 /* TwoDArray */,
+				F50F7EE515DC29F6002448D5 /* Frameworks */,
+				F50F7EE315DC29F6002448D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50F7EE315DC29F6002448D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50F7EE215DC29F6002448D5 /* TwoDArray */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50F7EE515DC29F6002448D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50F7EE615DC29F6002448D5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F50F7EE815DC29F6002448D5 /* TwoDArray */ = {
+			isa = PBXGroup;
+			children = (
+				F50F7EE915DC29F6002448D5 /* main.m */,
+				F50F7EED15DC29F6002448D5 /* TwoDArray.1 */,
+				F50F7EEB15DC29F6002448D5 /* Supporting Files */,
+			);
+			path = TwoDArray;
+			sourceTree = "<group>";
+		};
+		F50F7EEB15DC29F6002448D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F50F7EEC15DC29F6002448D5 /* TwoDArray-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50F7EE115DC29F6002448D5 /* TwoDArray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50F7EF115DC29F6002448D5 /* Build configuration list for PBXNativeTarget "TwoDArray" */;
+			buildPhases = (
+				F50F7EDE15DC29F6002448D5 /* Sources */,
+				F50F7EDF15DC29F6002448D5 /* Frameworks */,
+				F50F7EE015DC29F6002448D5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoDArray;
+			productName = TwoDArray;
+			productReference = F50F7EE215DC29F6002448D5 /* TwoDArray */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50F7ED915DC29F6002448D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Арслан Загидуллин";
+			};
+			buildConfigurationList = F50F7EDC15DC29F6002448D5 /* Build configuration list for PBXProject "TwoDArray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F50F7ED715DC29F6002448D5;
+			productRefGroup = F50F7EE315DC29F6002448D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50F7EE115DC29F6002448D5 /* TwoDArray */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50F7EDE15DC29F6002448D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50F7EEA15DC29F6002448D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F50F7EEF15DC29F6002448D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F50F7EF015DC29F6002448D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F50F7EF215DC29F6002448D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoDArray/TwoDArray-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F50F7EF315DC29F6002448D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwoDArray/TwoDArray-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50F7EDC15DC29F6002448D5 /* Build configuration list for PBXProject "TwoDArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50F7EEF15DC29F6002448D5 /* Debug */,
+				F50F7EF015DC29F6002448D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50F7EF115DC29F6002448D5 /* Build configuration list for PBXNativeTarget "TwoDArray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50F7EF215DC29F6002448D5 /* Debug */,
+				F50F7EF315DC29F6002448D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50F7ED915DC29F6002448D5 /* Project object */;
+}
