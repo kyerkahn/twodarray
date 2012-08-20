@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50AED0115E284E900ADEDB0 /* Array2D.m in Sources */ = {isa = PBXBuildFile; fileRef = F50AED0015E284E900ADEDB0 /* Array2D.m */; };
+		F50AED0515E28A2D00ADEDB0 /* Pixel.m in Sources */ = {isa = PBXBuildFile; fileRef = F50AED0415E28A2D00ADEDB0 /* Pixel.m */; };
 		F50F7EE715DC29F6002448D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50F7EE615DC29F6002448D5 /* Foundation.framework */; };
 		F50F7EEA15DC29F6002448D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50F7EE915DC29F6002448D5 /* main.m */; };
 		F50F7EEE15DC29F6002448D5 /* TwoDArray.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F50F7EED15DC29F6002448D5 /* TwoDArray.1 */; };
@@ -26,6 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F50AECFF15E284E900ADEDB0 /* Array2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array2D.h; sourceTree = "<group>"; };
+		F50AED0015E284E900ADEDB0 /* Array2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Array2D.m; sourceTree = "<group>"; };
+		F50AED0315E28A2D00ADEDB0 /* Pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pixel.h; sourceTree = "<group>"; };
+		F50AED0415E28A2D00ADEDB0 /* Pixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pixel.m; sourceTree = "<group>"; };
 		F50F7EE215DC29F6002448D5 /* TwoDArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoDArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50F7EE615DC29F6002448D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F50F7EE915DC29F6002448D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +82,10 @@
 				F50F7EE915DC29F6002448D5 /* main.m */,
 				F50F7EED15DC29F6002448D5 /* TwoDArray.1 */,
 				F50F7EEB15DC29F6002448D5 /* Supporting Files */,
+				F50AECFF15E284E900ADEDB0 /* Array2D.h */,
+				F50AED0015E284E900ADEDB0 /* Array2D.m */,
+				F50AED0315E28A2D00ADEDB0 /* Pixel.h */,
+				F50AED0415E28A2D00ADEDB0 /* Pixel.m */,
 			);
 			path = TwoDArray;
 			sourceTree = "<group>";
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F50F7EEA15DC29F6002448D5 /* main.m in Sources */,
+				F50AED0115E284E900ADEDB0 /* Array2D.m in Sources */,
+				F50AED0515E28A2D00ADEDB0 /* Pixel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +244,7 @@
 				F50F7EF315DC29F6002448D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
