@@ -11,7 +11,7 @@
 @implementation Pixel
 
 -(void) lol {
-    float alpha = CGColorGetAlpha(color);
+    //float alpha = CGColorGetAlpha(color);
 }
 
 @end

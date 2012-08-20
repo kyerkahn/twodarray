@@ -7,15 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Array2d.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        NSLog(@"LOOL");
+        Array2D *a2d = [[Array2D alloc] init:3 :3];
+        [a2d show];
         
     }
     return 0;

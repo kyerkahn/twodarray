@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Array2D : NSObject
+@interface Array2D : NSObject {
+    int width;
+    int height;
+}
+
+@property(readonly) int width;
+@property(readonly) int height;
+
+- (id) init:(int)n :(int)m;
+
+- (void) show;
 
 @end
