@@ -11,13 +11,13 @@
 @interface Array2D : NSObject {
     int width;
     int height;
+    int **arr;
 }
 
 @property(readonly) int width;
 @property(readonly) int height;
 
 - (id) init:(int)n :(int)m;
-
 - (void) show;
 
 @end

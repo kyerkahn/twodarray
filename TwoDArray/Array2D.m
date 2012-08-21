@@ -8,9 +8,7 @@
 
 #import "Array2D.h"
 
-@implementation Array2D {
-    CGColorRef **arr;
-}
+@implementation Array2D 
 
 - (id) init:(int)w :(int)h {
     
@@ -19,22 +17,31 @@
     
     self = [super init];
     if (self) {
-        arr = (CGColorRef**)malloc(width * height * sizeof(CGColorRef));
-        for (int i=0; i<width; i++)
-            for (int j=0; j<height; j++)
-                arr[i][j] = CGColorCreateGenericRGB(1.0f, 0.0f, 0.0f, 1.0f);
+        arr = malloc(width * height * sizeof(int));
+        printf("w:h:sizeof(arr) = %d:%d:%u\n", width, height, sizeof(arr));
+        int i, j;
+        for (i=0; i<width; i++)
+            for (j=0; j<height; j++) {
+                printf("%d:%d\n", i, j);
+                arr[i][j] = 1;
+            }
     }
     return self;
 }
 
 - (void) show {
-    for (int i=0; i<width; i++) {
-        for (int j=0; j<height; j++) {
-            const CGFloat *components = CGColorGetComponents(arr[i][j]);
-            printf("[%f:%f:%f]", components[0], components[1], components[2]);
-        }
+    printf("LOOL\n");
+    int i, j;
+    for (i=0; i<width; i++) {
+        for (j=0; j<height; j++)
+            printf("%d,", arr[i][j]);
         printf("\n");
     }
+}
+
+- (void) dealloc {
+    [super dealloc];
+    free(arr);
 }
 
 @end
