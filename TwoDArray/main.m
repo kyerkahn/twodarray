@@ -12,13 +12,10 @@
 int main(int argc, const char * argv[])
 {
 
-    //@autoreleasepool {
-        
+    @autoreleasepool {        
         Array2D *a2d = [[Array2D alloc] init:3 :3];
         [a2d show];
-        [a2d release];
-        
-    //}
+    }
     return 0;
 }
 

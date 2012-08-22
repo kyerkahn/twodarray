@@ -11,7 +11,6 @@
 @interface Array2D : NSObject {
     int width;
     int height;
-    int **arr;
 }
 
 @property(readonly) int width;
