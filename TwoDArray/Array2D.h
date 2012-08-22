@@ -9,14 +9,17 @@
 #import <Foundation/Foundation.h>
 
 @interface Array2D : NSObject {
-    int width;
-    int height;
+    unsigned width;
+    unsigned height;
 }
 
-@property(readonly) int width;
-@property(readonly) int height;
+@property(readonly) unsigned width;
+@property(readonly) unsigned height;
 
-- (id) init:(int)n :(int)m;
+- (id) init:(unsigned)width :(unsigned)height;
 - (void) show;
+
+- (void) put:(const float *)value to:(unsigned)x :(unsigned)y;
+- (float *) get:(unsigned)x :(unsigned)y;
 
 @end
